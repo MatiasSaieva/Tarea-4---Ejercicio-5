@@ -107,7 +107,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT m, WPARAM w, LPARAM l) {
         RECT info; GetClientRect(hWnd, &info);
         info.top = btn1.bottom + 40;
         std::wstringstream s;
-        s << L"Ultimo piso: " << (g_piso ? std::to_wstring(g_piso) : L"(ninguno)");
+        s << L"Ultimo pisoooooooooooooooo: " << (g_piso ? std::to_wstring(g_piso) : L"(ninguno)");
         DrawTextW(hdc, s.str().c_str(), -1, &info,
             DT_CENTER | DT_SINGLELINE);
 
